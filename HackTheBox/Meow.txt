@@ -1,0 +1,22 @@
+First for this machine and all of the other machines. WE must start a vpn server 
+We download one the server files from the connect tab on the top left of the machine screen [connect]
+we open up a terminal in our linux machine and run 
+
+sudo openvpn "server file name" 
+
+next we can ping machine to see if we are connected. 
+
+ping "ip of machine" 
+
+one of the most important commands to run on any machine to start our enumeration
+
+sudo nmap -sV "machine IP" 
+
+we can see that the machine will hace some kind of service open. 
+In this case we port 23 (telnet) open. 
+
+we can get access to the Meow machine by using telent and login-in usinf default credentials. 
+user : root
+password : "blank"   
+ls
+cat flag.txt 
