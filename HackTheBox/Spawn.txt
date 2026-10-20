@@ -1,0 +1,19 @@
+we start off our enumeration by runnning 
+
+sudo nmap -sV "IP" 
+
+we can see a service is running on port 21
+thats ftp server running
+
+we can log into the machines ftp server by using 
+ftp "IP" 
+and using the defualt log-in username 
+anonymous 
+witn no password. 
+
+
+once there we cant open any files but we can transfer files from the server to our machine, 
+get flag.txt 
+and views contents from our own machine. 
+
+
